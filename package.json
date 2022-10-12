@@ -1,7 +1,8 @@
 {
   "name": "demo-project",
   "version": "1.0.0",
-  "description": "v1.0.1",
+  "description": "<%=description%>",
+  "author": "<%=author%>",
   "main": "ask.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,8 +12,7 @@
     "url": "git+https://github.com/demo-cli/demo-project.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "license": "<%=license%>",
   "bugs": {
     "url": "https://github.com/demo-cli/demo-project/issues"
   },
